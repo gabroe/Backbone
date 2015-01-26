@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body style="background-color:rgb(10, 43, 44);">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--<input type="button" onclick="chart.render();" value="Render">-->
+        <div style="width:480px; height:400px; position: absolute; top:0; left:0; right:0; bottom: 0;
+            margin: auto;border-radius: 10px; overflow: hidden;">
+            <div id="tooltip" style="position: absolute; color: white; border: 2px solid black; border-radius: 3px;
+                padding: 0px 10px; top: 240px; left: 340px; background-color: rgb(68, 68, 68);height: 20px;
+                line-height: 25px; display: none;margin:10px;overflow: hidden;"></div>
+            <canvas id="main" width="480" height="400"></canvas>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/underscore.js"></script>
+        <script src="js/vendor/backbone.js"></script>
+        <script src="js/vendor/ocanvas-2.7.3.js"></script>
+        <script src="js/tool-extensions.js"></script>
+        <script src="js/model.js"></script>
+    </body>
+</html>
